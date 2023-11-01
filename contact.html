@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Pine City Mall</title>
+    <link rel="stylesheet" href="style.css"> <!-- Use the same CSS file for consistent styling -->
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="map.html">Map</a></li>
+            <li><a href="shops.html">Shops</a></li>
+            <li><a href="facilities.html">Facilities</a></li>
+            <li><a href="movies.html">Cinema</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Conact Us</a></li>
+        </ul>
+    </nav>
+    
+    <section id="contact-content">
+        <img src="images/pinecitymall.jpg" width="400">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or need assistance, please feel free to contact us using the information below:</p>
+        
+        <address>
+            <p><strong>Address:</strong> 123 Pine City Blvd, Pine City, 4011</p>
+            <p><strong>Phone:</strong> (123) 456-7890</p>
+            <p><strong>Email:</strong> info@pinecitymall.com</p>
+        </address>
+        
+        <h2>Contact Form</h2>
+        <form action="submit_contact_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2023 Pine City Mall</p>
+    </footer>
+</body>
+</html>
